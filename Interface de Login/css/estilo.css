@@ -1,0 +1,92 @@
+/*Estilo do Login*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #273746;
+}
+
+#container {
+    width: 400px;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+#formulario {
+    background-color:  #aab7b8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.email {
+    margin: 5px;
+    background-color:  #85929e ;
+    color: #1c2833;  
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 10px;
+}
+
+.senha {
+    margin: 5px;
+    background-color:#85929e;
+    color:  #1c2833;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 10px;
+}
+
+.senha, .email {
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/*logo do Cps*/
+#logo {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 300px;
+}
+
+span {
+    color: #fff;
+}
+
+/*Botão de Login*/
+.login {
+    margin: 5px;
+    background-color:#85929e;
+    color:  #1c2833;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*ícones*/
+img {
+    position: relative;
+    width: 30px;
+    top: 10px;
+    
+}
+
+/*modo hover*/
+.email, .senha, .login:hover {
+    border: 1px solid #1e8449;
+}
